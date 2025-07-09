@@ -135,14 +135,14 @@ const ProjectDetails = ({ project }: Props) => {
                         <div className="max-w-[635px] space-y-7 pb-20 mx-auto">
                             <div className="fade-in-later">
                                 <p className="text-muted-foreground font-anton mb-3">
-                                    Year
+                                    Ano
                                 </p>
 
                                 <div className="text-lg">{project.year}</div>
                             </div>
                             <div className="fade-in-later">
                                 <p className="text-muted-foreground font-anton mb-3">
-                                    Tech & Technique
+                                    Tecnologias
                                 </p>
 
                                 <div className="text-lg">
@@ -151,7 +151,7 @@ const ProjectDetails = ({ project }: Props) => {
                             </div>
                             <div className="fade-in-later">
                                 <p className="text-muted-foreground font-anton mb-3">
-                                    Description
+                                    Descrição
                                 </p>
 
                                 <div className="text-lg prose-xl markdown-text">
@@ -161,7 +161,7 @@ const ProjectDetails = ({ project }: Props) => {
                             {project.role && (
                                 <div className="fade-in-later">
                                     <p className="text-muted-foreground font-anton mb-3">
-                                        My Role
+                                        Responsabilidades
                                     </p>
 
                                     <div className="text-lg">

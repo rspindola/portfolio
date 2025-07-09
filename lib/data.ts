@@ -29,6 +29,10 @@ export const MY_STACK = {
             icon: '/logo/react.png',
         },
         {
+            name: 'React Native',
+            icon: '/logo/react.png',
+        },
+        {
             name: 'Next.js',
             icon: '/logo/next.png',
         },
@@ -127,9 +131,37 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
+        title: 'RecuperaFly App',
+        slug: 'recuperafly',
+        liveUrl: 'https://www.instagram.com/recuperafly/',
+        year: 2025,
+        description: `
+      `,
+        role: `
+        Full-Stack Developer <br/>
+        Responsável por todas as fases do desenvolvimento:
+        <ul>
+          <li>🎨 Frontend: Construção de UI moderna com React Native</li>
+          <li>⚙️ Backend: Construção da api com Nest.js e integração com o firebase para envio de push notificações.</li>
+          <li>🧠 Modelagem de dados: Estrutura relacional bem planejada e otimizada</li>
+          <li>🔍 Performance: Implementação de técnicas de caching e lazy loading</li>
+        </ul>
+      `,
+        techStack: [
+            'Nest.js',
+            'Swagger',
+            'Auth com JWT e Passport',
+            'React Native',
+            'Firebase',
+        ],
+        thumbnail: '/projects/thumbnail/recuperafly.jpg',
+        longThumbnail: '/projects/thumbnail/recuperafly.jpg',
+        images: ['/projects/thumbnail/recuperafly.jpg'],
+    },
+    {
         title: 'Collections',
         slug: 'collections-hq',
-        liveUrl: 'https://mti-electronics.vercel.app/',
+        liveUrl: 'https://vuexy-admin-pink.vercel.app/',
         year: 2023,
         description: `
         Este projeto representa uma realização pessoal e técnica de alto nível: a construção completa, do zero, de uma plataforma digital full stack voltada para o gerenciamento e catalogação de minha coleção de histórias em quadrinhos (HQs) e mangás. Muito além de um simples catálogo, trata-se de uma solução robusta, altamente escalável e focada na performance, usabilidade e organização inteligente.<br/><br/>
@@ -156,14 +188,6 @@ export const PROJECTS: IProject[] = [
           <li>Frontend hospedado na <strong>Vercel</strong>, com CI/CD automático, SSR e distribuição global via CDN</li>
           <li>Backend rodando na <strong>HostGator</strong> com banco de dados MySQL gerenciado e estrutura modular</li>
         </ul><br/>
-
-        <strong>🌱 Próximos passos:</strong><br/>
-        <ul>
-          <li>Criação de sistema de login social multiusuário</li>
-          <li>Gamificação da experiência de leitura</li>
-          <li>Integrações com APIs como MyAnimeList e ComicVine</li>
-          <li>Dashboard com gráficos de leitura, evolução da coleção e recomendações</li>
-        </ul>
       `,
         role: `
         Full-Stack Developer <br/>
@@ -237,7 +261,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Maria Poeta',
         slug: 'loja-poesia',
-        liveUrl: 'https://exemplo.com.br',
+        liveUrl: 'https://donamariapoeta.com.br/',
         year: 2024,
         description: `
     Um projeto sensível, autêntico e tecnicamente completo: a criação de uma loja virtual para uma autora independente de poesias. Desenvolvido como freelance pessoal, o projeto teve como objetivo oferecer à escritora uma plataforma profissional, confiável e fácil de administrar, para divulgar e vender seus próprios livros diretamente ao público.<br/><br/>
