@@ -134,65 +134,65 @@ export const MY_STACK = {
 };
 
 export const PROJECTS: IProject[] = [
-    {
-        title: 'RecuperaFly App',
-        slug: 'recuperafly',
-        liveUrl: 'https://www.instagram.com/recuperafly/',
-        year: 2025,
-        description: `
-        Projeto mobile full-stack inovador que representa uma solução completa de negócio: um aplicativo React Native integrado a uma robusta infraestrutura backend para monitoramento de vendas e gestão de notificações push em tempo real. O <strong>RecuperaFly</strong> é mais do que um app - é um ecossistema tecnológico que conecta gateways de pagamento, análise de dados e comunicação mobile de forma inteligente e automatizada.<br/><br/>
+    // {
+    //     title: 'RecuperaFly App',
+    //     slug: 'recuperafly',
+    //     liveUrl: 'https://www.instagram.com/recuperafly/',
+    //     year: 2025,
+    //     description: `
+    //     Projeto mobile full-stack inovador que representa uma solução completa de negócio: um aplicativo React Native integrado a uma robusta infraestrutura backend para monitoramento de vendas e gestão de notificações push em tempo real. O <strong>RecuperaFly</strong> é mais do que um app - é um ecossistema tecnológico que conecta gateways de pagamento, análise de dados e comunicação mobile de forma inteligente e automatizada.<br/><br/>
 
-        <strong>🔄 Arquitetura Completa: Do Gateway ao Usuário</strong><br/>
-        Desenvolvi uma solução end-to-end que integra múltiplas camadas tecnológicas. A API backend consome dados de vendas diretamente de gateways de pagamento, processa informações estratégicas e aciona um sistema de webhooks inteligente que dispara notificações push personalizadas via Firebase. Todo este fluxo alimenta um app mobile moderno, responsivo e altamente performático.<br/><br/>
+    //     <strong>🔄 Arquitetura Completa: Do Gateway ao Usuário</strong><br/>
+    //     Desenvolvi uma solução end-to-end que integra múltiplas camadas tecnológicas. A API backend consome dados de vendas diretamente de gateways de pagamento, processa informações estratégicas e aciona um sistema de webhooks inteligente que dispara notificações push personalizadas via Firebase. Todo este fluxo alimenta um app mobile moderno, responsivo e altamente performático.<br/><br/>
 
-        <strong>⚙️ Backend: API RESTful com Nest.js</strong><br/>
-        Construí uma API robusta e escalável utilizando Nest.js, com arquitetura modular e padrões enterprise. A aplicação possui integração nativa com gateways de pagamento para coleta automatizada de dados de vendas, sistema de webhooks para triggers em tempo real e autenticação segura com JWT e Passport.<br/><br/>
+    //     <strong>⚙️ Backend: API RESTful com Nest.js</strong><br/>
+    //     Construí uma API robusta e escalável utilizando Nest.js, com arquitetura modular e padrões enterprise. A aplicação possui integração nativa com gateways de pagamento para coleta automatizada de dados de vendas, sistema de webhooks para triggers em tempo real e autenticação segura com JWT e Passport.<br/><br/>
 
-        <strong>🔔 Sistema de Notificações Inteligente</strong><br/>
-        Implementei um sistema de webhooks que monitora eventos específicos dos gateways de pagamento e automaticamente aciona o Firebase Cloud Messaging (FCM) para envio de notificações push direcionadas. Isso garante que os usuários recebam informações relevantes instantaneamente, melhorando engajamento e conversão.<br/><br/>
+    //     <strong>🔔 Sistema de Notificações Inteligente</strong><br/>
+    //     Implementei um sistema de webhooks que monitora eventos específicos dos gateways de pagamento e automaticamente aciona o Firebase Cloud Messaging (FCM) para envio de notificações push direcionadas. Isso garante que os usuários recebam informações relevantes instantaneamente, melhorando engajamento e conversão.<br/><br/>
 
-        <strong>📱 Mobile: React Native de Alta Performance</strong><br/>
-        O app foi desenvolvido com React Native utilizando as melhores práticas de desenvolvimento mobile, incluindo navegação fluida, gerenciamento de estado otimizado, cache inteligente e interface responsiva. A aplicação consome a API backend de forma eficiente, oferecendo aos usuários uma experiência premium e intuitiva.<br/><br/>
+    //     <strong>📱 Mobile: React Native de Alta Performance</strong><br/>
+    //     O app foi desenvolvido com React Native utilizando as melhores práticas de desenvolvimento mobile, incluindo navegação fluida, gerenciamento de estado otimizado, cache inteligente e interface responsiva. A aplicação consome a API backend de forma eficiente, oferecendo aos usuários uma experiência premium e intuitiva.<br/><br/>
 
-        <strong>🚀 Destaques Técnicos</strong>
-        <ul>
-          <li>Integração nativa com gateways de pagamento para coleta de dados em tempo real</li>
-          <li>Sistema de webhooks automatizado para triggers de eventos</li>
-          <li>Notificações push inteligentes via Firebase Cloud Messaging</li>
-          <li>API RESTful documentada com Swagger para fácil manutenção</li>
-          <li>App React Native com performance otimizada e UX moderna</li>
-          <li>Arquitetura modular e escalável para futuras expansões</li>
-        </ul><br/>
+    //     <strong>🚀 Destaques Técnicos</strong>
+    //     <ul>
+    //       <li>Integração nativa com gateways de pagamento para coleta de dados em tempo real</li>
+    //       <li>Sistema de webhooks automatizado para triggers de eventos</li>
+    //       <li>Notificações push inteligentes via Firebase Cloud Messaging</li>
+    //       <li>API RESTful documentada com Swagger para fácil manutenção</li>
+    //       <li>App React Native com performance otimizada e UX moderna</li>
+    //       <li>Arquitetura modular e escalável para futuras expansões</li>
+    //     </ul><br/>
 
-        <strong>💼 Resultado de Negócio</strong><br/>
-        Uma solução completa que transforma dados de vendas em insights acionáveis, mantendo usuários engajados através de comunicação automatizada e oferecendo uma plataforma mobile robusta para monitoramento e gestão de negócios em tempo real.
-      `,
-        role: `
-        Full-Stack Developer & Mobile Specialist<br/>
-        Responsável por todas as fases do desenvolvimento:
-        <ul>
-          <li>🔧 Backend: API RESTful com Nest.js, integração com gateways de pagamento e sistema de webhooks</li>
-          <li>� Mobile: Desenvolvimento completo do app React Native com foco em performance e UX</li>
-          <li>🔔 Notificações: Implementação de sistema push via Firebase Cloud Messaging</li>
-          <li>🔐 Segurança: Autenticação robusta com JWT e Passport, validação de dados e middleware de segurança</li>
-          <li>📊 Integração: Conexão nativa com gateways de pagamento para análise de dados de vendas</li>
-          <li>📚 Documentação: API totalmente documentada com Swagger para facilitar manutenção e expansões</li>
-        </ul>
-      `,
-        techStack: [
-            'React Native',
-            'Nest.js',
-            'Firebase Cloud Messaging',
-            'JWT & Passport',
-            'Swagger',
-            'Gateway APIs',
-            'Webhooks',
-            'TypeScript',
-        ],
-        thumbnail: '/projects/thumbnail/recuperafly.jpg',
-        longThumbnail: '/projects/thumbnail/recuperafly.jpg',
-        images: ['/projects/thumbnail/recuperafly.jpg'],
-    },
+    //     <strong>💼 Resultado de Negócio</strong><br/>
+    //     Uma solução completa que transforma dados de vendas em insights acionáveis, mantendo usuários engajados através de comunicação automatizada e oferecendo uma plataforma mobile robusta para monitoramento e gestão de negócios em tempo real.
+    //   `,
+    //     role: `
+    //     Full-Stack Developer & Mobile Specialist<br/>
+    //     Responsável por todas as fases do desenvolvimento:
+    //     <ul>
+    //       <li>🔧 Backend: API RESTful com Nest.js, integração com gateways de pagamento e sistema de webhooks</li>
+    //       <li>� Mobile: Desenvolvimento completo do app React Native com foco em performance e UX</li>
+    //       <li>🔔 Notificações: Implementação de sistema push via Firebase Cloud Messaging</li>
+    //       <li>🔐 Segurança: Autenticação robusta com JWT e Passport, validação de dados e middleware de segurança</li>
+    //       <li>📊 Integração: Conexão nativa com gateways de pagamento para análise de dados de vendas</li>
+    //       <li>📚 Documentação: API totalmente documentada com Swagger para facilitar manutenção e expansões</li>
+    //     </ul>
+    //   `,
+    //     techStack: [
+    //         'React Native',
+    //         'Nest.js',
+    //         'Firebase Cloud Messaging',
+    //         'JWT & Passport',
+    //         'Swagger',
+    //         'Gateway APIs',
+    //         'Webhooks',
+    //         'TypeScript',
+    //     ],
+    //     thumbnail: '/projects/thumbnail/recuperafly.jpg',
+    //     longThumbnail: '/projects/thumbnail/recuperafly.jpg',
+    //     images: ['/projects/thumbnail/recuperafly.jpg'],
+    // },
     {
         title: 'Collections',
         slug: 'collections-hq',
